@@ -4,9 +4,9 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 9
-_modified_time = 1379740596.607572
+_modified_time = 1379741659.965778
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/post_helper.tmpl'
+_template_filename = u'themes/reveal/templates/post_helper.tmpl'
 _template_uri = u'post_helper.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['html_title', 'html_tags', 'html_pager', 'twitter_card_information', 'html_translations', 'mathjax_script']
@@ -23,11 +23,11 @@ def render_body(context,**pageargs):
         __M_writer(u'\n\n\n')
         # SOURCE LINE 29
         __M_writer(u'\n\n')
-        # SOURCE LINE 44
+        # SOURCE LINE 46
         __M_writer(u'\n\n')
-        # SOURCE LINE 67
+        # SOURCE LINE 69
         __M_writer(u'\n\n')
-        # SOURCE LINE 73
+        # SOURCE LINE 75
         __M_writer(u'\n')
         return ''
     finally:
@@ -92,27 +92,27 @@ def render_html_pager(context,post):
         messages = context.get('messages', UNDEFINED)
         __M_writer = context.writer()
         # SOURCE LINE 31
-        __M_writer(u'\n    <ul class="pager">\n')
-        # SOURCE LINE 33
+        __M_writer(u'\n    <div style="text-align:right">\n    <ul class="pager">\n')
+        # SOURCE LINE 34
         if post.prev_post:
-            # SOURCE LINE 34
-            __M_writer(u'        <li class="previous">\n            <a href="')
             # SOURCE LINE 35
+            __M_writer(u'        <li class="previous">\n            <a href="')
+            # SOURCE LINE 36
             __M_writer(unicode(post.prev_post.permalink()))
             __M_writer(u'">&larr; ')
             __M_writer(unicode(messages("Previous post")))
             __M_writer(u'</a>\n        </li>\n')
-        # SOURCE LINE 38
+        # SOURCE LINE 39
         if post.next_post:
-            # SOURCE LINE 39
-            __M_writer(u'        <li class="next">\n            <a href="')
             # SOURCE LINE 40
+            __M_writer(u'        <li class="next">\n            <a href="')
+            # SOURCE LINE 41
             __M_writer(unicode(post.next_post.permalink()))
             __M_writer(u'">')
             __M_writer(unicode(messages("Next post")))
             __M_writer(u' &rarr;</a>\n        </li>\n')
-        # SOURCE LINE 43
-        __M_writer(u'    </ul>\n')
+        # SOURCE LINE 44
+        __M_writer(u'    </ul>\n    </div>\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -123,54 +123,54 @@ def render_twitter_card_information(context,post):
     try:
         twitter_card = context.get('twitter_card', UNDEFINED)
         __M_writer = context.writer()
-        # SOURCE LINE 46
+        # SOURCE LINE 48
         __M_writer(u'\n')
-        # SOURCE LINE 47
+        # SOURCE LINE 49
         if twitter_card and twitter_card['use_twitter_cards']:
-            # SOURCE LINE 48
+            # SOURCE LINE 50
             __M_writer(u'        <meta name="twitter:card" content="')
             __M_writer(filters.html_escape(unicode(twitter_card.get('card', 'summary'))))
             __M_writer(u'">\n        <meta name="og:url" content="')
-            # SOURCE LINE 49
+            # SOURCE LINE 51
             __M_writer(unicode(post.permalink(absolute=True)))
             __M_writer(u'">\n')
-            # SOURCE LINE 50
+            # SOURCE LINE 52
             if 'site:id' in twitter_card:
-                # SOURCE LINE 51
+                # SOURCE LINE 53
                 __M_writer(u'            <meta name="twitter:site:id" content="')
                 __M_writer(unicode(twitter_card['site:id']))
                 __M_writer(u'">\n')
-                # SOURCE LINE 52
+                # SOURCE LINE 54
             elif 'site' in twitter_card:
-                # SOURCE LINE 53
+                # SOURCE LINE 55
                 __M_writer(u'            <meta name="twitter:site" content="')
                 __M_writer(unicode(twitter_card['site']))
                 __M_writer(u'">\n')
-            # SOURCE LINE 55
+            # SOURCE LINE 57
             if 'creator:id' in twitter_card:
-                # SOURCE LINE 56
+                # SOURCE LINE 58
                 __M_writer(u'            <meta name="twitter:creator:id" content="')
                 __M_writer(unicode(twitter_card['creator:id']))
                 __M_writer(u'">\n')
-                # SOURCE LINE 57
+                # SOURCE LINE 59
             elif 'creator' in twitter_card:
-                # SOURCE LINE 58
+                # SOURCE LINE 60
                 __M_writer(u'            <meta name="twitter:creator" content="')
                 __M_writer(unicode(twitter_card['creator']))
                 __M_writer(u'">\n')
-            # SOURCE LINE 60
+            # SOURCE LINE 62
             __M_writer(u'        <meta name="og:title" content="')
             __M_writer(filters.html_escape(unicode(post.title()[:70])))
             __M_writer(u'">\n')
-            # SOURCE LINE 61
+            # SOURCE LINE 63
             if post.description():
-                # SOURCE LINE 62
+                # SOURCE LINE 64
                 __M_writer(u'            <meta name="og:description" content="')
                 __M_writer(filters.html_escape(unicode(post.description()[:200])))
                 __M_writer(u'">\n')
-                # SOURCE LINE 63
+                # SOURCE LINE 65
             else:
-                # SOURCE LINE 64
+                # SOURCE LINE 66
                 __M_writer(u'            <meta name="og:description" content="')
                 __M_writer(filters.html_escape(unicode(post.text(strip_html=True)[:200])))
                 __M_writer(u'">\n')
@@ -211,11 +211,11 @@ def render_mathjax_script(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_writer = context.writer()
-        # SOURCE LINE 69
+        # SOURCE LINE 71
         __M_writer(u'\n')
-        # SOURCE LINE 70
+        # SOURCE LINE 72
         if post.is_mathjax:
-            # SOURCE LINE 71
+            # SOURCE LINE 73
             __M_writer(u'        <script src="/assets/js/mathjax.js" type="text/javascript"></script>\n')
         return ''
     finally:

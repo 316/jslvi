@@ -242,7 +242,7 @@ SLUG_TAG_PATH = True
 # translated
 
 # Name of the theme to use.
-# THEME = 'site'
+THEME = 'reveal'
 
 # Color scheme to be used for code blocks. If your theme provides
 # "assets/css/code.css" this is ignored.

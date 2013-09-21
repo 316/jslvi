@@ -4,12 +4,12 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 9
-_modified_time = 1379740596.404827
+_modified_time = 1379741659.702517
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/index.tmpl'
+_template_filename = u'themes/reveal/templates/index.tmpl'
 _template_uri = u'index.tmpl'
 _source_encoding = 'utf-8'
-_exports = [u'content']
+_exports = [u'content', u'custom_reveal']
 
 
 def _mako_get_namespace(context, name):
@@ -35,9 +35,11 @@ def render_body(context,**pageargs):
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         date_format = context.get('date_format', UNDEFINED)
+        def custom_reveal():
+            return render_custom_reveal(context._locals(__M_locals))
         helper = _mako_get_namespace(context, 'helper')
-        messages = context.get('messages', UNDEFINED)
         posts = context.get('posts', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
         def content():
             return render_content(context._locals(__M_locals))
@@ -52,7 +54,13 @@ def render_body(context,**pageargs):
             context['self'].content(**pageargs)
         
 
-        # SOURCE LINE 22
+        # SOURCE LINE 24
+        __M_writer(u'\n\n')
+        if 'parent' not in context._data or not hasattr(context._data['parent'], 'custom_reveal'):
+            context['self'].custom_reveal(**pageargs)
+        
+
+        # SOURCE LINE 34
         __M_writer(u'\n')
         return ''
     finally:
@@ -76,40 +84,52 @@ def render_content(context,**pageargs):
         # SOURCE LINE 6
         for post in posts:
             # SOURCE LINE 7
-            __M_writer(u'        <div class="postbox">\n        <h1><a href="')
-            # SOURCE LINE 8
+            __M_writer(u'        <section>\n        <div class="postbox">\n        <h1><a href="')
+            # SOURCE LINE 9
             __M_writer(unicode(post.permalink()))
             __M_writer(u'">')
             __M_writer(unicode(post.title()))
             __M_writer(u'</a>\n        <small>&nbsp;&nbsp;\n             ')
-            # SOURCE LINE 10
+            # SOURCE LINE 11
             __M_writer(unicode(messages("Posted")))
             __M_writer(u': <time class="published" datetime="')
             __M_writer(unicode(post.date.isoformat()))
             __M_writer(u'">')
             __M_writer(unicode(post.formatted_date(date_format)))
             __M_writer(u'</time>\n        </small></h1>\n        <hr>\n        ')
-            # SOURCE LINE 13
+            # SOURCE LINE 14
             __M_writer(unicode(post.text(teaser_only=index_teasers)))
             __M_writer(u'\n')
-            # SOURCE LINE 14
+            # SOURCE LINE 15
             if not post.meta('nocomments'):
-                # SOURCE LINE 15
+                # SOURCE LINE 16
                 __M_writer(u'            ')
                 __M_writer(unicode(comments.comment_link(post.permalink(), post.base_path)))
                 __M_writer(u'\n')
-            # SOURCE LINE 17
-            __M_writer(u'        </div>\n')
-        # SOURCE LINE 19
+            # SOURCE LINE 18
+            __M_writer(u'        ')
+            __M_writer(unicode(helper.html_pager()))
+            __M_writer(u'\n        </div>\n        </section>\n')
+        # SOURCE LINE 22
         __M_writer(u'    ')
-        __M_writer(unicode(helper.html_pager()))
-        __M_writer(u'\n    ')
-        # SOURCE LINE 20
         __M_writer(unicode(comments.comment_link_script()))
-        __M_writer(u'\n\t')
-        # SOURCE LINE 21
+        __M_writer(u'\n    ')
+        # SOURCE LINE 23
         __M_writer(unicode(helper.mathjax_script(posts)))
         __M_writer(u'\n')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
+def render_custom_reveal(context,**pageargs):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        def custom_reveal():
+            return render_custom_reveal(context)
+        __M_writer = context.writer()
+        # SOURCE LINE 26
+        __M_writer(u'\n    <script>\n    Reveal.initialize({\n    controls: true,\n    progress: true,\n    history: true\n    })\n    </script>\n')
         return ''
     finally:
         context.caller_stack._pop_frame()

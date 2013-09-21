@@ -4,9 +4,9 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 9
-_modified_time = 1379740596.42073
+_modified_time = 1379741659.719866
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/index_helper.tmpl'
+_template_filename = u'themes/reveal/templates/index_helper.tmpl'
 _template_uri = u'index_helper.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['mathjax_script', 'html_pager']
@@ -50,7 +50,7 @@ def render_html_pager(context):
         nextlink = context.get('nextlink', UNDEFINED)
         __M_writer = context.writer()
         # SOURCE LINE 2
-        __M_writer(u'\n<div>\n<ul class="pager">\n')
+        __M_writer(u'\n<div style="text-align:right">\n<ul class="pager">\n')
         # SOURCE LINE 5
         if prevlink:
             # SOURCE LINE 6
