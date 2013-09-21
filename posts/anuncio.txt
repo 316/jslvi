@@ -1,0 +1,17 @@
+.. link: 
+.. description: 
+.. tags: 
+.. date: 2013/09/21 10:46:14
+.. title: 6ª Jornadas de Software Libre de Salta
+.. slug: anuncio
+
+6ª Jornadas de Software Libre de Salta
+======================================
+
+Este año, en el mes de Noviembre se realizaran las 6ª Jornadas de Software
+Libre de Salta, donde se abordaran diferentes temas relacionados al software
+y cultura libre.
+El evento se realizará los días **22 y 23 de Noviembre** en el aula virtual de
+la facultad de Ciencias Exactas de la Universidad Nacional de Salta.
+
+Los esperamos...
