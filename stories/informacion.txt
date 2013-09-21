@@ -5,40 +5,19 @@
 .. title: Información
 .. slug: informacion
 
-.. admonition:: What should be here
 
-    This page should describe where this event takes place.
-    You should mention the address, including city and everything.
+Las 6ª Jornadas de Software Libre de Salta se desarrollaran en el Aula Virtual
+de la Facultad de Ciencias Exactas de la Universidad Nacional de Salta, que
+está ubicada en la Avda. Bolivia 5050 en Salta Capital.
 
-    A nice google map pointing to the spot like this is a nice touch.
-
-    Also a good idea:
-
-    * How to get there using public transportation
-    * How to get there by car
-    * Parking availability
-    * Places to eat during lunch breaks
-    * A reminder of the rough schedule (start/finish/breaks)
-    * Hints about accomodations for those who need to stay overnight
-    
-My Little Python Meeting takes place at the Royal Albert Hall, located at Kensington Gore, 
-London SW7 2AP, United Kingdom, on January 32nd, 2022.
-
-You can get there by many different bus lines. The closest underground station is 
-South Kensington in the District Line, located 800 meters away.
-
-There is absolutely no place to park, so arriving by car is insane (just kidding, this is an
-example, kids).
-
-Sessions start at 9AM and end at 5PM with a lunch break between 12:30 and 13:30.
-Remember that registration is at 8:30 AM so arrive early.
-
-During the lunch break, cucumber sandwiches will be provided for free. 
-If you feel more adventurous, there is a number of restaurants nearby.
-
-In case you need to stay overnight, accomodations can be arranged in Hyde Park 
-benches.
+Se puede llegar por diferentes lineas de omnibus. Los corredores
+`6A <http://www.saetasalta.com.ar/corredores_u.asp?q=6&t=u&sec=A&sub=>`_,
+`6C <http://www.saetasalta.com.ar/corredores_u.asp?q=6&t=u&sec=C&sub=>`_,
+`5A <http://www.saetasalta.com.ar/corredores_u.asp?q=5&t=u&sec=A&sub=>`_
+`transversal <http://www.saetasalta.com.ar/corredores_u.asp?q=troncal&t=u&sec=TR&sub=Transversal>`_
+y `troncal <http://www.saetasalta.com.ar/corredores_u.asp?q=troncal&t=u&sec=TNS&sub=Norte:Sur>`_
+te dejan en la entrada principal de la Universidad.
 
 .. raw:: html
 
-   <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;q=Royal+Albert+Hall,+Londres,+Gran+Londres+SW7+2AP,+Reino+Unido&amp;aq=&amp;sll=35.101934,-95.712891&amp;sspn=62.430715,128.144531&amp;ie=UTF8&amp;geocode=FZDXEQMd5Er9_w&amp;split=0&amp;hq=&amp;hnear=Royal+Albert+Hall,+Londres+SW7+2AP,+Reino+Unido&amp;t=m&amp;z=14&amp;ll=51.500944,-0.177436&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=es-419&amp;q=Royal+Albert+Hall,+Londres,+Gran+Londres+SW7+2AP,+Reino+Unido&amp;aq=&amp;sll=35.101934,-95.712891&amp;sspn=62.430715,128.144531&amp;ie=UTF8&amp;geocode=FZDXEQMd5Er9_w&amp;split=0&amp;hq=&amp;hnear=Royal+Albert+Hall,+Londres+SW7+2AP,+Reino+Unido&amp;t=m&amp;z=14&amp;ll=51.500944,-0.177436" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small>
+    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=universidad+de+Salta,+Argentina&amp;aq=0&amp;oq=universidad+de+salta&amp;sll=37.0625,-95.677068&amp;sspn=60.028724,79.013672&amp;ie=UTF8&amp;hq=universidad&amp;hnear=Salta,+Argentina&amp;t=m&amp;fll=-24.734203,-65.396891&amp;fspn=0.034184,0.038581&amp;st=103449825881102224479&amp;rq=1&amp;ev=p&amp;split=1&amp;ll=-24.753067,-65.419057&amp;spn=0.034186,0.038581&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=universidad+de+Salta,+Argentina&amp;aq=0&amp;oq=universidad+de+salta&amp;sll=37.0625,-95.677068&amp;sspn=60.028724,79.013672&amp;ie=UTF8&amp;hq=universidad&amp;hnear=Salta,+Argentina&amp;t=m&amp;fll=-24.734203,-65.396891&amp;fspn=0.034184,0.038581&amp;st=103449825881102224479&amp;rq=1&amp;ev=p&amp;split=1&amp;ll=-24.753067,-65.419057&amp;spn=0.034186,0.038581" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small>

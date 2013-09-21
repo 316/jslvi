@@ -8,12 +8,7 @@
 
 .. sidebar:: Sponsors
    
-   .. figure:: http://www.weylandyutani.org/i/launchwy.jpg
-      :target: /sponsors/
-      :width: 300px
-      
-      
-   .. figure:: http://cdn.shopify.com/s/files/1/0073/9412/t/1/assets/logo.png?437
+   .. figure:: http://www.ianux.com/sites/default/files/arthemia_logo.png
       :target: /sponsors/
       :width: 300px
       

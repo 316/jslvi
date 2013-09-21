@@ -251,7 +251,7 @@ THEME = 'reveal'
 # CODE_COLOR_SCHEME = default
 
 # If you use 'site-reveal' theme you can select several subthemes
-# THEME_REVEAL_CONGIF_SUBTHEME = 'sky'
+# THEME_REVEAL_CONGIF_SUBTHEME = 'night'
 # You can also use: beige/serif/simple/night/default
 
 # Again, if you use 'site-reveal' theme you can select several transitions
@@ -316,7 +316,7 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # it will instead /foo/default.html => /foo)
 # (Note: This was briefly STRIP_INDEX_HTML in v 5.4.3 and 5.4.4)
 # Default = False
-# STRIP_INDEXES = False
+STRIP_INDEXES = True
 
 # Should the sitemap list directories which only include other directories
 # and no files.
@@ -362,7 +362,7 @@ PRETTY_URLS = True
 # ADD_THIS_BUTTONS = True
 
 # Hide link to source for the posts?
-# HIDE_SOURCELINK = False
+HIDE_SOURCELINK = True
 
 # Modify the number of Post per Index Page
 # Defaults to 10

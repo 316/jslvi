@@ -19,12 +19,28 @@
             <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss/rss.xml">
 
     
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="../assets/reveal/css/reveal.css">
+    <!-- If you use another reveal.css, DO NOT forget to delete overflow: hidden from global variables -->
+    <link rel="stylesheet" href="../assets/reveal/css/theme/sky.css" id="theme">
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+    document.write( '<link rel="stylesheet" href="/assets/reveal/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+    <!--[if lt IE 9]>
+    <script src="/assets/reveal/lib/js/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="../assets/css/custom_reveal.css">
+
+    
 
 
 
     
 </head>
 <body>
+
 <!-- Menubar -->
 <div class="navbar navbar-fixed-top" id="navbar">
     <div class="navbar-inner">
@@ -45,6 +61,7 @@
                 <ul class="nav">
                     
                 <li><a href="../">Inicio</a>
+                </li><li><a href="../noticias/">Noticias</a>
                 </li><li><a href="../disertantes/">Disertantes</a>
                 </li><li><a href="../cronograma/">Cronograma</a>
                 </li><li><a href="../informacion/">Como llegar?</a>
@@ -56,28 +73,23 @@
                 
                 
                     <li>
-			<a href="index.txt" id="sourcelink">Código</a>
-		</li>
+            <a href="index.txt" id="sourcelink">Código</a>
+        </li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
 <!-- End of Menubar -->
-<div class="container-fluid" id="container-fluid">
-    <!--Body content-->
-    <div class="row-fluid">
-    <div class="span2"></div>
-    <div class="span8">
-    
+
+<div class="reveal"><div class="slides">
+    <section>
+        
     <h1>6ª Jornada de Software Libre</h1>
     <div class="sidebar">
 <p class="first sidebar-title">Sponsors</p>
-<div class="figure">
-<a class="reference external image-reference" href="../sponsors/"><img alt="http://www.weylandyutani.org/i/launchwy.jpg" src="http://www.weylandyutani.org/i/launchwy.jpg" style="width: 300px;"></a>
-</div>
 <div class="last figure">
-<a class="reference external image-reference" href="../sponsors/"><img alt="http://cdn.shopify.com/s/files/1/0073/9412/t/1/assets/logo.png?437" src="http://cdn.shopify.com/s/files/1/0073/9412/t/1/assets/logo.png?437" style="width: 300px;"></a>
+<a class="reference external image-reference" href="../sponsors/"><img alt="http://www.ianux.com/sites/default/files/arthemia_logo.png" src="http://www.ianux.com/sites/default/files/arthemia_logo.png" style="width: 300px;"></a>
 </div>
 </div>
 <div class="section" id="que-son-las-jornadas-de-software-libre-de-salta">
@@ -94,13 +106,54 @@ Mira <a class="reference external" href="informacion">como llegar aqui</a></p>
 </div>
 </div>
 
+    </section>
+</div></div>
+
+
+    <script src="../assets/reveal/lib/js/head.min.js"></script>
+    <script src="../assets/reveal/js/reveal.min.js"></script>
+    <script>
+    // Full list of configuration options available here: https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+    controls: false,
+    progress: false,
+    history: false,
+    keyboard: false,
+    rollingLinks: false,
+    theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+    transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/linear/none
+    // Optional libraries used to extend on reveal.js
+    dependencies: [
+    { src: '/assets/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } }
+    ]
+    });
+    </script>
+    <script>
+    Reveal.addEventListener( 'slidechanged', function( event ) {
+    window.scrollTo(0,0);
+    MathJax.Hub.Rerender(event.currentSlide);
+    });
+    </script>
+
+
+
+    <script>
+    Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true
+    })
+    </script>
+
+
+<div class="navbar navbar-fixed-bottom">
+    <div class="navbar-inner">
+        <div class="footerbox">
+            Contents © 2013         <a href="mailto:charlas@saltalug.org.ar">SaltaLUG</a> - Powered by         <a href="http://nikola.ralsina.com.ar">Nikola</a>
+        </div>
     </div>
-    </div>
-    <!--End of body content-->
 </div>
-<div class="footerbox">
-    Contents © 2013         <a href="mailto:charlas@saltalug.org.ar">SaltaLUG</a> - Powered by         <a href="http://nikola.ralsina.com.ar">Nikola</a>
-</div>
+
 
             <script src="../assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>
             <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
