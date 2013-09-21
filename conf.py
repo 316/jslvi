@@ -8,16 +8,16 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Your Name"
-BLOG_TITLE = "My Little Python Meeting"
+BLOG_AUTHOR = "SaltaLUG"
+BLOG_TITLE = "6ª Jornadas de Software Libre de Salta"
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://pyday-foo.python.org"
+SITE_URL = "http://jslvi.saltalug.org.ar"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://nikola.ralsina.com.ar"
-BLOG_EMAIL = "joe@demo.site"
-BLOG_DESCRIPTION = "News and information about My Little Python Day."
+BLOG_EMAIL = "charlas@saltalug.org.ar"
+BLOG_DESCRIPTION = "Información y noticias sobre las jornadas de software libre de Salta"
 
 # Nikola is multilingual!
 #
@@ -39,37 +39,27 @@ BLOG_DESCRIPTION = "News and information about My Little Python Day."
 # in the default language will be shown instead.
 
 # What is the default language?
-DEFAULT_LANG = "en"
+DEFAULT_LANG = "es"
 
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
-    "en": "",
-#    "es": "./es",
+    "es": "",
+#    "en": "./en",
 }
 
 # Links for the sidebar / navigation bar.
 # You should provide a key-value pair for each used language.
 SIDEBAR_LINKS = {
-    "en": (
-        ('/', 'Start'),
-        ('/speakers/', 'Speakers'),
-        ('/news/', 'News'),
-        ('/schedule/', 'Schedule'),
-        ('/location/', 'Location'),
-        ('/sponsors/', 'Sponsors'),
-        ('/signup/', 'Signup'),
-    ),
     "es": (
-        ('/es/', 'Inicio'),
-        ('/es/speakers/', 'Oradores'),
-        ('/es/news/', 'Noticias'),
-        ('/es/schedule/', 'Agenda'),
-        ('/es/location/', 'Lugar'),
-        ('/es/sponsors/', 'Sponsors'),
-        ('/es/signup/', 'Inscripción'),
-    ),
+        ('/', 'Start'),
+        ('/disertantes/', 'Disertantes'),
+        ('/cronograma/', 'Cronograma'),
+        ('/informacion/', 'Como llegar?'),
+        ('/sponsors/', 'Sponsors'),
+        ('/inscripcion/', 'Inscribirse'),
+    )
 }
 
 
