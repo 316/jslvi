@@ -1,0 +1,35 @@
+.. link: 
+.. description: 
+.. tags: 
+.. date: 2013/09/21 01:17:44
+.. title: 6ª Jornada de Software Libre
+.. slug: inicio
+
+
+.. sidebar:: Sponsors
+   
+   .. figure:: http://www.weylandyutani.org/i/launchwy.jpg
+      :target: /sponsors/
+      :width: 300px
+      
+      
+   .. figure:: http://cdn.shopify.com/s/files/1/0073/9412/t/1/assets/logo.png?437
+      :target: /sponsors/
+      :width: 300px
+      
+
+Que son las Jornadas de Software Libre de Salta
+===============================================
+
+Este año, en el mes de Noviembre se realizaran las 6ª Jornadas de Software
+Libre de Salta, donde se abordaran diferentes temas relacionados al software
+y cultura libre.
+Las Jornadas de Software Libre de Salta....
+
+
+Donde y cuando?
+---------------
+
+El evento se realizará los días **22 y 23 de Noviembre** en el aula virtual de
+la facultad de Ciencias Exactas de la Universidad Nacional de Salta.
+Mira `como llegar aqui <informacion>`_
