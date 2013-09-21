@@ -1,7 +1,7 @@
 .. link: 
 .. description: 
 .. tags: 
-.. date: 2013/09/21 10:46:14
+.. date: 2013/09/21 01:46:14
 .. title: 6ª Jornadas de Software Libre de Salta
 .. slug: anuncio
 

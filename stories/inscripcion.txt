@@ -2,8 +2,8 @@
 .. description: 
 .. tags: 
 .. date: 2013/08/08 19:18:18
-.. title: Signup
-.. slug: signup
+.. title: Inscribirse
+.. slug: inscripcion
 
 .. admonition:: What should be here
 

@@ -2,8 +2,8 @@
 .. description: 
 .. tags: 
 .. date: 2013/08/08 19:18:01
-.. title: Schedule
-.. slug: schedule
+.. title: Cronograma
+.. slug: cronograma
 
 .. admonition:: What should be here
 
