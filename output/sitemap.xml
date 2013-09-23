@@ -6,7 +6,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://jslvi.saltalug.org.ar/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -21,17 +21,17 @@
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/archivo/2013/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/archivo/archivo.html</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/categorias/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -41,62 +41,62 @@
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/cronograma/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/disertantes/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/informacion/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/inscripcion/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/noticias/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/noticias/anuncio/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/posts/anuncio/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/sponsors/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/stories/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/stories/cronograma/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/stories/disertantes/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/stories/informacion/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -106,12 +106,12 @@
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/stories/inscripcion/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://jslvi.saltalug.org.ar/stories/sponsors/</loc>
-  <lastmod>2013-09-21</lastmod>
+  <lastmod>2013-09-23</lastmod>
   <priority>0.5000</priority>
  </url>
 </urlset>
